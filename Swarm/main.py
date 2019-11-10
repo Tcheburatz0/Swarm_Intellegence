@@ -25,8 +25,6 @@ Table = [
     (1008000, 1383000),
 ]
 print("Table: ", Table)
-# Удалить повторяющиеся элементы
-#Table = list(set(Table))
 # Граница 75/25
 border = int(len(Table) * 0.75)
 test = Table[border:]
